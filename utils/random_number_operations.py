@@ -28,6 +28,7 @@ def random_number_operations(iterations):
         sqrt_result1 = math.sqrt(num1) if num1 >= 0 else "invalid"
         sqrt_result2 = math.sqrt(num2) if num2 >= 0 else "invalid"
         
+        
         # Логарифм
         try:
             log_result1 = math.log(num1) if num1 > 0 else "invalid"
